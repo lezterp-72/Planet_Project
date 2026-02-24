@@ -5,7 +5,7 @@ def test_planet():
 
 def test_moon():
     luna = moon(name = "Luna", radius = 1737.4, color = "white",  tidally_locked = True)
-    assert luna.tidally_locked == True
+    assert luna.tidally_locked
 
 def test_moon_list():
     earth = planet(name = "Earth", radius = 6371, color = "blue")
